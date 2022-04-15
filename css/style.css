@@ -1,0 +1,65 @@
+/*-------------------------------------------*/
+/* GENERAL STYLES */
+body,
+html {
+	background-color: #ccc;
+	font-family: 'audi-font';
+}
+
+@font-face {
+	font-family: 'audi-font';
+	src: url('../fonts/abeatbyKaiRegular.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/abeatbyKaiRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/abeatbyKaiRegular.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/abeatbyKaiRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/abeatbyKaiRegular.svg#238fcb5280165dfdffd25c9da103f2fc') format('svg'); /* Legacy iOS */
+	font-style: normal;
+	font-weight: 400;
+}
+
+a:link,
+/* unvisited link */
+a:visited,
+/* visited link */
+a:hover,
+/* mouse over link */
+a:active /* selected link */ {
+	color: white;
+	text-decoration: none;
+}
+
+/*-------------------------------------------*/
+/* SPLASH PAGE STYLES */
+
+div.splash {
+	width: 873px;
+	margin: 50px auto;
+}
+
+.enter {
+	width: 120px;
+	font-size: 30px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+div.enter span#a {
+	display: inline;
+}
+div.enter:hover span#a {
+	display: none;
+}
+div.enter span#b {
+	display: none;
+}
+div.enter:hover span#b {
+	display: inline;
+}​
+
+/*-------------------------------------------*/
+/* INDEX STYLES */
+
+h1.page-title {
+	font-style: 30px;
+	font-weight: normal;
+}
