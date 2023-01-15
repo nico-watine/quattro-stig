@@ -10,9 +10,9 @@ html {
 	font-family: 'audi-font';
 	src: url('../fonts/abeatbyKaiRegular.eot'); /* IE9 Compat Modes */
 	src: url('../fonts/abeatbyKaiRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-		 url('../fonts/abeatbyKaiRegular.woff') format('woff'), /* Modern Browsers */
-		 url('../fonts/abeatbyKaiRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
-		 url('../fonts/abeatbyKaiRegular.svg#238fcb5280165dfdffd25c9da103f2fc') format('svg'); /* Legacy iOS */
+		  url('../fonts/abeatbyKaiRegular.woff') format('woff'), /* Modern Browsers */
+		  url('../fonts/abeatbyKaiRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
+		  url('../fonts/abeatbyKaiRegular.svg#238fcb5280165dfdffd25c9da103f2fc') format('svg'); /* Legacy iOS */
 	font-style: normal;
 	font-weight: 400;
 }
@@ -54,7 +54,7 @@ div.enter span#b {
 }
 div.enter:hover span#b {
 	display: inline;
-}​
+}
 
 /*-------------------------------------------*/
 /* INDEX STYLES */
